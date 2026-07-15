@@ -1,0 +1,20 @@
+Nicely done — that's the POC fully wrapped and safely stored. 🎉
+
+Where things stand
+✅ Official Airtasker MCP connected & pulling live data
+✅ 7 tools confirmed; discovery verified against the real feed
+✅ Key constraint understood — MCP = discovery radar, not an auto-bidder (bid + chat stay manual in the app)
+✅ Baseline snapshot saved
+✅ Everything documented and now on private GitHub (WalidN1989/AirTasker-)
+
+Your home Mac's Claude Code just needs to git clone the repo and read the README — it'll have the whole mental model and the CTA list.
+
+Waiting for you at home (from the README's §7)
+Verify the deep-link — exact airtasker.com task URL from a slug (so "tap CRM lead → open in app" works)
+Lead-scoring rubric — what becomes a CRM lead vs noise
+CRM lead schema — fields a discovered task maps to
+(Later build) Railway cron + headless MCP client → leads auto-arrive on your phone
+One thing worth flagging for later: the controlled test experiment (having someone post a task and seeing if I discover it blind) is still un-run — the baseline is ready whenever you want to trigger it. Just a browse_tasks re-run and a diff against airtasker-baseline.json.
+
+Have a good trip home, Walid — this was a clean, honest POC. 👋
+
